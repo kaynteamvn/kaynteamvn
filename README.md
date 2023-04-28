@@ -1,17 +1,3 @@
-- 👋 Hi, I’m @kaynteamvn
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-kaynteamvn/kaynteamvn is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-
-script
-
-
 a=gg.getFile():match('[^/]+$')
 local Vietkey = gg.getFile():gsub(a, 'Viet.key')
 local Vietload = loadfile(Vietkey)
